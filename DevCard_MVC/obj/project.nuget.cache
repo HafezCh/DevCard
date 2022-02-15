@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "2HQIIcYiKlDUwKy7+M5aYHuWBvOA0lpQQEAfulYpnCaO5o2RLWHbWte43eUNR1AJr5c+vTu4vq0XgHpqhlPr7w==",
+  "success": true,
+  "projectFilePath": "D:\\👽 Programming 👽\\C#\\Courses\\Asp.Net.Core\\Practice\\DevCard_Project\\DevCard_MVC\\DevCard_MVC.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Hafez Ch\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.14\\microsoft.netcore.app.host.win-x64.5.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}
