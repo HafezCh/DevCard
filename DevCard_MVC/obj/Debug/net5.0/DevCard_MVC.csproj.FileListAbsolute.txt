@@ -113,3 +113,4 @@ D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\DevCard_Project\DevCar
 D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\DevCard_Project\DevCard_MVC\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\DevCard_Project\DevCard_MVC\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\DevCard_Project\DevCard_MVC\obj\Debug\net5.0\Razor\Views\Home\Contact.cshtml.g.cs
+D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\DevCard_Project\DevCard_MVC\obj\Debug\net5.0\Razor\Views\Home\Projects.cshtml.g.cs
