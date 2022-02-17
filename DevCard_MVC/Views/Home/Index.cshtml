@@ -29,10 +29,21 @@
 	</div>
 </section>
 
+@*Loading Partial View*@
+
 @*<partial name="Projects"/>
 *@
-@await Html.PartialAsync("Projects",new List<Project>())
+@*@await Html.PartialAsync("Projects",new List<Project>())*@
 @*@await Html.PartialAsync("Projects")*@
+
+@*//End Loading Partial View*@
+
+@*Loading View Component*@
+
+@await Component.InvokeAsync("Projects")
+
+@*//End Loading View Component*@
+
 <div class="container">
 	<hr>
 </div>
