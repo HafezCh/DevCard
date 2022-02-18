@@ -43,7 +43,7 @@ namespace DevCard_MVC.Controllers
                 ViewBag.error = "اطلاعات وارد شده صحیح نیست ، لطفا دوباره تلاش کنید";
                 return View(model);
             }
-
+            
             ModelState.Clear();
 
             model = new ContactForm
