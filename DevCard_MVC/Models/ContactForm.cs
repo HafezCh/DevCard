@@ -14,10 +14,9 @@ namespace DevCard_MVC.Models
         [EmailAddress(ErrorMessage = "عبارت وارد شده ایمیل صحیحی نیست")]
         public string email { get; set; }
 
-        [Required(ErrorMessage = "لطفا پیام موردنظرتون را وارد کنید")]
+        [Required(ErrorMessage = "این فیلد اجباری است")]
         public string message { get; set; }
 
-        [Required(ErrorMessage = "این فیلد اجباری است")]
         public string services { get; set; }
     }
 }

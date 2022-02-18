@@ -56,6 +56,21 @@
 </section>
 <section class="contact-section px-3 py-5 p-md-5">
 	<div class="container">
+		
+		@if (!string.IsNullOrWhiteSpace(ViewBag.success))
+		{
+			<div class="alert-success p-2">
+				<p>@ViewBag.success</p>
+			</div>
+		}
+
+		@if (!string.IsNullOrWhiteSpace(ViewBag.error))
+		{
+			<div class="alert-danger p-2">
+				<p>@ViewBag.error</p>
+			</div>
+		}
+
 		<form id="contact-form" class="contact-form col-lg-8 mx-lg-auto" method="post" asp-action="Contact">
 			<h3 class="text-center mb-3">در دسترس باشید!</h3>
 			<div class="form-row">
@@ -77,7 +92,6 @@
 						<option value="premium">پلاتین</option>
 						<option value="not sure">الماس</option>
 					</select>
-					<span asp-validation-for="services" class="text-danger"></span>
 				</div>
 				<div class="form-group col-12">
 					<label class="sr-only" asp-for="message">پیغام شما</label>

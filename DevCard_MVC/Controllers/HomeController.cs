@@ -21,11 +21,26 @@ namespace DevCard_MVC.Controllers
         }
 
         [HttpPost]
-        public JsonResult Contact(ContactForm form)
+        public IActionResult Contact(ContactForm model)
         {
-            Console.WriteLine(form.ToString());
-            return Json(Ok());
+            //if (ModelState.IsValid == false)
+            if (!ModelState.IsValid)
+            {
+                ViewBag.error = "اطلاعات وارد شده صحیح نیست ، لطفا دوباره تلاش کنید";
+                return View(model);
+            }
+
+            ViewBag.success = "پیغام شما با موفقیت ارسال شد ، باتشکر از شما";
+            return View();
+            //return RedirectToAction("Index");
         }
+
+        //[HttpPost]
+        //public JsonResult Contact(ContactForm form)
+        //{
+        //    Console.WriteLine(form.ToString());
+        //    return Json(Ok());
+        //}
 
         //[HttpPost]
         //public JsonResult Contact(IFormCollection form)
