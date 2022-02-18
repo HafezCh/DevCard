@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.Diagnostics.CodeAnalysis;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace DevCard_MVC.Models
 {
@@ -17,6 +18,8 @@ namespace DevCard_MVC.Models
         [Required(ErrorMessage = "این فیلد اجباری است")]
         public string message { get; set; }
 
-        public string services { get; set; }
+        public int services { get; set; }
+
+        public SelectList Services { get; set; }
     }
 }
