@@ -46,11 +46,15 @@ namespace DevCard_MVC
 
             app.UseAuthorization();
 
+            //app.UseEndpoints(endpoint => { endpoint.MapControllerRoute("Test", ""); });
+
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+               //endpoints.MapControllerRoute("Test", "{controller=Home}/{action:Index}/{products?}");
             });
         }
     }

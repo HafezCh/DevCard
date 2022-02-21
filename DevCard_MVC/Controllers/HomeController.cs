@@ -8,6 +8,9 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace DevCard_MVC.Controllers
 {
+    //[Route("/inventory/products")]
+    //localhost:5001/inventory/products/index
+    //localhost:5001/inventory/products/contact
     public class HomeController : Controller
     {
         private readonly List<Service> _services = new List<Service>
@@ -18,11 +21,22 @@ namespace DevCard_MVC.Controllers
             new Service(4,"الماس"),
         };
 
-        public IActionResult Index()
+        //localhost:5001/inventory/products/MyIndex
+        //[Route("MyIndex/{name?}/{model?}")]
+        public IActionResult Index(string name,string model)
         {
             return View();
         }
 
+        public IActionResult ProjectDetails(long id)
+        {
+            var project = ProjectStore.GetProjectBy(id);
+            return View(project);
+        }
+
+        //localhost:5001/inventory/products/ContactPage
+        //[HttpGet("ContactPage")]
+        //[Route("ContactPage")]
         [HttpGet]
         public IActionResult Contact()
         {

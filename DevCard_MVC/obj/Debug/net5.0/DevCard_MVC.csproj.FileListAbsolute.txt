@@ -117,3 +117,4 @@ D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\DevCard_Project\DevCar
 D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\DevCard_Project\DevCard_MVC\obj\Debug\net5.0\Razor\Views\Home\Components\LatestArticles\_LatestArticles.cshtml.g.cs
 D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\DevCard_Project\DevCard_MVC\obj\Debug\net5.0\Razor\Views\Shared\Footer.cshtml.g.cs
 D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\DevCard_Project\DevCard_MVC\obj\Debug\net5.0\Razor\Views\Shared\Header.cshtml.g.cs
+D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\DevCard_Project\DevCard_MVC\obj\Debug\net5.0\Razor\Views\Home\ProjectDetails.cshtml.g.cs
